@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/part_one"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_anim"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="7dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/open" />
+        <Button
+            android:id="@+id/btn_anim_add"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="7dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/add" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentLeft="true">
+
+    <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@color/green"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@color/blue"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@color/brown"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@color/red"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@color/purple"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@color/grey"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btn_group_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentRight="true">
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@color/green"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@color/blue"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@color/brown"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@color/red"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@color/purple"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@color/grey"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
